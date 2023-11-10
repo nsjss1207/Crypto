@@ -1,3 +1,7 @@
 MOD1
 
 First take the mod of each number with 37 to get values between 1 and 36. Replace each digit with its corresponding value to get the flag value.
+
+Local Authority
+
+After inspecting the html code of the website I found that the file was being directed to login.php. After directing to login.php and inspecting i found that there is a secure.js file. I found the password after reading secure.js file in the sources section.

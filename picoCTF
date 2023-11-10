@@ -14,3 +14,9 @@ In this following CTF, I first read about how a person could attack a website. I
 Using that information I came across command injections in which linux commands can be passed with the given coomand on the page. After running the 
 ls command several files were displayed on the screen. Using the cat command with the falg.txt file I found the password.
 
+Forbidden Paths
+
+In this flag as the website is filtering out absolute paths, I searched to find a way through that.
+I came across relative paths which can use the path relative to the current directory. 
+By using relative paths by using the .. command be can be used to access the next directory. By replacing the absolute path usr/share/nginx/html/
+with ../../../../flag.txt we get the flag.

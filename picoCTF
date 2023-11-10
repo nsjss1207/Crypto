@@ -20,3 +20,13 @@ In this flag as the website is filtering out absolute paths, I searched to find 
 I came across relative paths which can use the path relative to the current directory. 
 By using relative paths by using the .. command be can be used to access the next directory. By replacing the absolute path usr/share/nginx/html/
 with ../../../../flag.txt we get the flag.
+
+miniRSA
+
+As the value of public key, public key E and the cipher message is given, using any decryption site we can get the value of the flag.
+
+Buffer Overflow 0
+
+In the following CTF after doing a bit of research I found that the gets function is prone to buffer overflow. If we exceed the storage capacity
+of gets it will overflow into different memory location. The SIGSEGV (Segmentation function) checks if there is any overflow beyond the bounds.
+If we input a large number of characters and press enter it causes buffer overflow and we get the value of the flag.

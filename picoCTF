@@ -4,8 +4,13 @@ First take the mod of each number with 37 to get values between 1 and 36. Replac
 
 Local Authority
 
-After inspecting the html code of the website I found that the file was being directed to login.php. After directing to login.php and inspecting i found that there is a secure.js file. I found the password after reading secure.js file in the sources section.
-> int i
+After inspecting the html code of the website I found that the file was being directed to login.php. 
+After directing to login.php and inspecting i found that there is a secure.js file. 
+I found the password after reading secure.js file in the sources section.
+
 CAAS
 
-In this following CTF, I first read about how a person could attack a website. I found that injection attacks are 
+In this following CTF, I first read about how a person could attack a website. I found that injection attacks are common in webistes that accept inout from users.
+Using that information I came across command injections in which linux commands can be passed with the given coomand on the page. After running the 
+ls command several files were displayed on the screen. Using the cat command with the falg.txt file I found the password.
+

@@ -8,3 +8,5 @@ First take the mod of each number with 37 to get values between 1 and 36. Replac
 miniRSA
 
 As the value of public key, public key E and the cipher message is given, using any decryption site we can get the value of the flag.
+
+<img width="762" alt="Screenshot 2023-11-14 at 2 03 22 AM" src="https://github.com/nsjss1207/Crypto/assets/107710230/0084df47-306a-41ef-9635-d8c78868523d">

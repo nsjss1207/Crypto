@@ -4,9 +4,12 @@ The file which we downloaded is a bmp file. I first tried opening the file using
 
  <img width="1137" alt="Screenshot 2023-11-14 at 11 02 41 PM" src="https://github.com/nsjss1207/Crypto/assets/107710230/c4a42c52-2594-4e54-a9be-d77c047055d3">
 
+However the full file wasnt being displayed. After checking for the width and height of the file, the height of the file could still be increased. On putting a height of 850 by converting it to hex and opening it we find the flag.
 
 <img width="374" alt="Screenshot 2023-11-14 at 11 02 56 PM" src="https://github.com/nsjss1207/Crypto/assets/107710230/6824d2e5-277d-477d-b92c-84c41c49f831">
 
 
 <img width="374" alt="Screenshot 2023-11-14 at 11 03 17 PM" src="https://github.com/nsjss1207/Crypto/assets/107710230/7a07b1b0-6d6d-4dff-9096-91549467bb83">
+
+
 <img width="910" alt="Screenshot 2023-11-14 at 11 02 10 PM" src="https://github.com/nsjss1207/Crypto/assets/107710230/3db078f9-1c06-432b-9c5b-83711ed13d9f">
